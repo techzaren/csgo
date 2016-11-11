@@ -1,0 +1,3 @@
+sv_staminajumpcost 0;
+sv_staminalandcost 0;
+sv_air 100
