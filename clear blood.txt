@@ -1,0 +1,8 @@
+bind f "+lookatweapon; r_cleardecals"
+
+if you want use while moving add this commands individually
+
+bind "a" "+moveleft; r_cleardecals"
+bind "d" "+moveright; r_cleardecals"
+bind "s" "+back; r_cleardecals"
+bind "w" "+forward; r_cleardecals"
