@@ -10,7 +10,7 @@ zoom 0.76
 
 Эту строку вставляем в параметры запуска игры:
 
--threads 4 -high -nod3d9ex -m_rawinput 1 -freq 144 +fps_max 300 -heapsize 4194304 +rate 786432 + cl_cmdrate 128 -tickrate 128 -noaafonts +exec autoexec
+-threads 4 -high -nod3d9ex -m_rawinput 1 -mat_queue_mode 2 -freq 240 +fps_max 320 -heapsize 4194304 +rate 786432 + cl_cmdrate 128 -tickrate 128 -noaafonts +exec autoexec
 
 -threads 4 -   4 здесь указывается сколько ядер у Вас, не потоков, а именно ядер, хотя более подходящее название этого параметра kernel, а не threads ибо threads переводистя как потоки, а не ядра, но раз valve назвали это не kernel а threads, то будем делать так как хотят valve, а не как было бы правильно.
 
