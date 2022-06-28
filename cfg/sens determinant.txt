@@ -1,0 +1,51 @@
+using System;
+					
+public class Program
+{
+	static int CountDigitsAfterDecimal(decimal value)
+        {
+            bool start = false;
+            int count = 0;
+            foreach (var s in value.ToString())
+            {
+                if (s == '.')
+                {
+                    start = true;
+                }
+                else if (start)
+                {
+                    count++;
+                }
+            }
+
+            return count;
+        }
+	
+	public static void Main()
+	{
+		var vertSens = 2.49m;
+		var sens = 2.332m;
+		
+		while(vertSens <= 2.6m)
+		{
+			//var delta = 0.0001m;
+			
+			//if(c == 0)
+				//delta = 0;
+			
+			var divider = vertSens / sens;
+			decimal result = 0.022m / divider;
+			
+			//Console.WriteLine("vert sens = " + vertSens.ToString() + " digits count after point - " + CountDigitsAfterDecimal(result).ToString() + " m_yaw = " + result.ToString());
+			
+			if(CountDigitsAfterDecimal(result) <= 6)
+			{
+			   Console.WriteLine("MMMMMYEAH BABY! vert sens = " + vertSens.ToString() + " m_yaw = " + result.ToString() + " horizontal sens = " + sens);
+			}
+			
+			vertSens += 0.0001m;
+			//sens += 0.0001m;
+		}
+		
+	}
+}
