@@ -23,28 +23,40 @@ public class Program
 	
 	public static void Main()
 	{
-		var vertSens = 2.49m;
-		var sens = 2.332m;
+		var vertSens = 1.793m;  //вертикальная сенса
 		
-		while(vertSens <= 2.6m)
+		while(vertSens <= 1.793m)
 		{
-			//var delta = 0.0001m;
-			
-			//if(c == 0)
-				//delta = 0;
-			
-			var divider = vertSens / sens;
-			decimal result = 0.022m / divider;
-			
-			//Console.WriteLine("vert sens = " + vertSens.ToString() + " digits count after point - " + CountDigitsAfterDecimal(result).ToString() + " m_yaw = " + result.ToString());
-			
-			if(CountDigitsAfterDecimal(result) <= 6)
+			var sens = 2.1m;  //горизонтальная сенса
+			var count = 0;
+		
+			while(sens <= 2.14m)
 			{
-			   Console.WriteLine("MMMMMYEAH BABY! vert sens = " + vertSens.ToString() + " m_yaw = " + result.ToString() + " horizontal sens = " + sens);
+				//var delta = 0.0001m;
+
+				//if(c == 0)
+					//delta = 0;
+
+				var divider = vertSens / sens;
+				decimal result = 0.022m / divider;
+
+				//Console.WriteLine("vert sens = " + vertSens.ToString() + " digits count after point - " + CountDigitsAfterDecimal(result).ToString() + " m_yaw = " + result.ToString());
+
+				if(CountDigitsAfterDecimal(result) <= 6)
+				{
+					count++;
+				   Console.WriteLine("MMMMMYEAH BABY! vert sens = " + vertSens.ToString() + " m_yaw = " + result.ToString() + " horizontal sens = " + sens);
+				}
+
+				//vertSens += 0.0000001m;
+				sens += 0.0000001m;
 			}
 			
-			vertSens += 0.0001m;
-			//sens += 0.0001m;
+			vertSens += 0.00001m;
+			
+			if(count > 0)
+			Console.WriteLine("-=-=-=-=-=-=-=-=-=-=");
+			
 		}
 		
 	}

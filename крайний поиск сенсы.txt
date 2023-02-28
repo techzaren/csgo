@@ -1,0 +1,27 @@
+MMMMMYEAH BABY! vert sens = 1.804 m_yaw = 0.02588324 horizontal sens = 2.122425680
+MMMMMYEAH BABY! vert sens = 1.83975 m_yaw = 0.02538 horizontal sens = 2.12240250
+
+
+MMMMMYEAH BABY! vert sens = 1.796586000 m_yaw = 0.02599 horizontal sens = 2.12242137 более менее удобно и какая-то точность тоже есть
+MMMMMYEAH BABY! vert sens = 1.784 m_yaw = 0.024629 horizontal sens = 1.99718800  точная стрельба с пистолетов но не супер удобно
+MMMMMYEAH BABY! vert sens = 1.82 m_yaw = 0.02549844 horizontal sens = 2.109416400 точная стрельба, надо проьовать пистолеты, но с дигла летит хорошо на aim_beat
+
+
+MMMMMYEAH BABY! vert sens = 1.790386125 m_yaw = 0.02608 horizontal sens = 2.12242137
+
+
+sens 1.8
+
+m_yaw 0.02585605 
+m_yaw 0.02549855      
+m_yaw 0.02565585
+
+
+1.82 m_yaw = 0.02585605 horizontal sens = 2.139000500
+
+1.82 m_yaw = 0.02549855 horizontal sens = 2.109425500
+sens 1.83 m_yaw = 0.02535918 horizontal sens = 2.1094227
+
+1.82 m_yaw = 0.02565585 horizontal sens = 2.122438500
+
+0.02550504
