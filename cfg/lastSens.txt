@@ -1,0 +1,18 @@
+MMMMMYEAH BABY! vert sens = 2.092681250 m_yaw = 0.022176 horizontal sens = 2.1094227
+-=-=-=-=-=-=-=-=-=-=
+MMMMMYEAH BABY! vert sens = 2.095800000 m_yaw = 0.022143 horizontal sens = 2.1094227
+
+
+MMMMMYEAH BABY! vert sens = 1.83 m_yaw = 0.02535918 horizontal sens = 2.1094227
+-=-=-=-=-=-=-=-=-=-=
+
+
+MMMMMYEAH BABY! vert sens = 2.08 m_yaw = 0.02234408 horizontal sens = 2.112531200
+
+MMMMMYEAH BABY! vert sens = 2.08 m_yaw = 0.02234375 horizontal sens = 2.1125
+
+
+MMMMMYEAH BABY! vert sens = 2 m_yaw = 0.02323805 horizontal sens = 2.11255
+
+
+MMMMMYEAH BABY! vert sens = 1.9 m_yaw = 0.02442495 horizontal sens = 2.109427500
