@@ -1,0 +1,32 @@
+Команды не вошли в кс2
+
+
+Unknown command: net_graph
+Unknown command: cl_downloadfilter
+Unknown command: cl_updaterate
+Unknown command: cl_cmdrate
+
+
+cl_forcepreload "1"
+fog_enable_water_fog
+mat_postprocess_enable "0"
+mat_bloom_scalefactor_scalar "0"
+mat_bloomamount_rate "0"
+r_drawtracers_firstperson "1"
+r_dyanmic "0"
+r_eyegloss "0" 
+r_eyemove "0"
+mat_hdr_enable "0"
+mat_queue_mode "2"
+threadpool_affinity "4"
+cl_threaded_bone_setup "1"
+cl_threaded_client_leaf_system "1"
+r_threaded_client_shadow_manager "1"
+r_threaded_renderables "1"
+r_queued_decals "0"
+r_queued_post_processing "0"
+r_queued_ropes "0"
+
+cl_downloadfilter "nosounds"
+cl_updaterate "128"
+cl_cmdrate "128"
