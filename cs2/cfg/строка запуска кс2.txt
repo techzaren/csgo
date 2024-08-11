@@ -1,1 +1,1 @@
--threads 12 -high -nod3d9ex -m_rawinput 1 -mat_queue_mode 2 -freq 360 +fps_max 550 -heapsize 8388608 +rate 786432 + cl_cmdrate 128 -noaafonts +exec autoexec
+-high -nojoy -limitvsconst -softparticlesdefaultoff -m_rawinput 1 -freq 360 +fps_max 550 +rate 786432 -cl_updaterate 128 -cl_interp_ratio 1 -cl_interp 0.015625 -noaafonts +exec autoexec
