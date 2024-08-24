@@ -1,1 +1,1 @@
--high -nojoy -limitvsconst -softparticlesdefaultoff -m_rawinput 1 -freq 360 +fps_max 550 +rate 786432 -cl_updaterate 128 -cl_interp_ratio 1 -cl_interp 0.015625 -noaafonts +exec autoexec
+-high -nojoy -freq 360 +fps_max 550 -threads 17 -limitvsconst +exec autoexec
